@@ -26,6 +26,16 @@ And in your chatroom, *dump* is now a key word :
     you : dump plop
     bot : What do you mean by plop?
 
+In your shell :
+    
+    $ curl http://localhost:4567/dump?q=plop
+    What do you mean by plop?
+
+With the cli client :
+
+    $ ./cli.rb dump plop
+    What do you mean by plop?
+
 Ingredients
 -----------
 
